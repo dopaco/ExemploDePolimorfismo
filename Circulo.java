@@ -1,9 +1,10 @@
-
+﻿
 public class Circulo extends Figura {
 	
 	private float raio;
 	private static final double PI = Math.PI;
 	
+	// Metodo Construtor
 	public Circulo(float raio) {
 		// TODO Auto-generated constructor stub
 		this.raio = raio;
