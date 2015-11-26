@@ -9,7 +9,8 @@ public class Circulo extends Figura {
 		// TODO Auto-generated constructor stub
 		this.raio = raio;
 	}
-
+	
+	//Sobrescrita de metodo
 	@Override
 	public float calcularArea() {
 		// TODO Auto-generated method stub
@@ -18,6 +19,7 @@ public class Circulo extends Figura {
 		return (float)retorno;
 	}
 
+	//Sobrescrita de metodo
 	@Override
 	public float calcularPerimetro() {
 		// TODO Auto-generated method stub
@@ -25,6 +27,7 @@ public class Circulo extends Figura {
 		double retorno = 2*PI * raio;
 		return  (float)retorno;
 	}
+	
 	
 	public String nome(){
 		return "Circulo ";
